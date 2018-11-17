@@ -1,5 +1,4 @@
-import rumdom
+import random
 
-omikuji = ['吉', '凶', '大吉']
-
-rundom.randint
+mylist = ["大吉", "凶", "吉"]
+print("今日の運勢は... " + random.choice(mylist))
